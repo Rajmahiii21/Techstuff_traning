@@ -14,19 +14,7 @@ const employeeDetails = {
     isMarried: null
 };
 
-// 1. Using for...in
-console.log("Using for...in:");
-for (const key in employeeDetails) {
-    if (Object.hasOwn(employeeDetails, key)) {
-        console.log(key + ":", employeeDetails[key]);
-    }
-}
 
-// 2. Using for...of
-console.log("Using for...of:");
-for (const [key, value] of Object.entries(employeeDetails)) {
-    console.log(key + ":", value);
-}
 
 // 3. Using for loop
 console.log("Using for loop:");
