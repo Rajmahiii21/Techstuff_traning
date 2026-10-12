@@ -20,7 +20,7 @@ let gender;
 let isMarried;
 
 // Print the initial values
-console.log("----- Initial Values -----");
+console.log(" Initial Values ");
 console.log("Name:", name);
 console.log("Email:", email);
 console.log("Age:", age);
@@ -40,7 +40,7 @@ gender = null;
 isMarried = null;
 
 // Print the values after assigning null
-console.log("----- Values After Assigning Null -----");
+console.log(" Values After Assigning Null ");
 console.log("Name:", name);
 console.log("Email:", email);
 console.log("Age:", age);
@@ -62,5 +62,5 @@ const employeeDetails = {
 };
 
 // Print the employeeDetails object
-console.log("----- Employee Details Object -----");
+console.log(" Employee Details Object ");
 console.log(employeeDetails);
