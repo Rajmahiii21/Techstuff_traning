@@ -94,3 +94,12 @@ console.log(sortEmployees(employees, "name"));
 
 console.log("Employees sorted by salary");
 console.log(sortEmployees(employees, "salary"));
+
+
+const add = ( a,b)=> a+b;
+console.log( add(2,3));
+
+const arr = [14,3,2,4,5];
+arr.sort((a, b) => a - b);
+console.log(arr);
+console.log(arr.includes(1));
