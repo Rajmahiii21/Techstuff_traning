@@ -14,3 +14,6 @@ if (a >= b && a >= c) {
 } else {
     console.log("Biggest number:", c);
 }
+for (let i =0 ;i< 5;i++){
+    con
+}
